@@ -1,0 +1,13 @@
+{
+  "name": "mern-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "concurrently -n 'client,server' \"cd client && npm i\" \"cd server && npm i\"",
+    "dev": "cd server && npm run dev",
+    "pro": "cd server && npm run pro"
+  },
+  "author": "Varun Dev",
+  "license": "ISC"
+}
